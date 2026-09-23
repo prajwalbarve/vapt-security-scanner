@@ -1,0 +1,162 @@
+{
+  "leads": {
+    "saasventurecapital.com": {
+      "name": "SaaS Ventures \u2014 Enterprise Technology Investors",
+      "website": "https://www.saasventurecapital.com/",
+      "domain": "saasventurecapital.com",
+      "description": "SaaS Ventures partners with visionary founders at the earliest stages \u2014 investing in enterprise software, AI applications, and cybersecurity companies that ...",
+      "source": "serpapi",
+      "date_found": "2026-09-18T10:39:06.861172",
+      "buying_signals": [
+        "security",
+        "enterprise"
+      ],
+      "score": 14
+    },
+    "payproglobal.com": {
+      "name": "What is SaaS Venture Capital (VC)? Risks and Alternatives",
+      "website": "https://payproglobal.com/answers/what-is-saas-venture-capital-vc/",
+      "domain": "payproglobal.com",
+      "description": "The main reasons SaaS businesses look for venture capital funding are to obtain operating funds and gain from the strategic advice of investors.",
+      "source": "serpapi",
+      "date_found": "2026-09-18T10:39:06.861263",
+      "buying_signals": [
+        "funding"
+      ],
+      "score": 12
+    },
+    "leadsquared.com": {
+      "name": "Top 11 HealthTech Startups In India",
+      "website": "https://www.leadsquared.com/industries/healthcare/healthtech-startups-in-india/",
+      "domain": "leadsquared.com",
+      "description": "Funding Raised: HealthifyMe has raised a total of $100.1M in funding over 8 rounds. Investors: Amit Gupta, Atlas Asset Management, Atlas Ventures, Blume ...",
+      "source": "serpapi",
+      "date_found": "2026-09-18T10:39:07.779234",
+      "buying_signals": [
+        "funding"
+      ],
+      "score": 12
+    },
+    "entrepreneurloop.com": {
+      "name": "Indian Health-Tech Funding 2026: 6 Startups Win Rs 6 Crore",
+      "website": "https://entrepreneurloop.com/indian-health-tech-funding-iit-bombay-atman-3/",
+      "domain": "entrepreneurloop.com",
+      "description": "Just today, Bengaluru-based Sukino Healthcare raised $31 million in Series B funding led by Bessemer Venture Partners. Add Even Healthcare's $20 ...",
+      "source": "serpapi",
+      "date_found": "2026-09-18T10:39:07.779311",
+      "buying_signals": [
+        "funding"
+      ],
+      "score": 12
+    },
+    "samridhimpact.com": {
+      "name": "Apply for Funding - SAMRIDH",
+      "website": "https://www.samridhimpact.com/apply-for-funding-new/",
+      "domain": "samridhimpact.com",
+      "description": "Accepting applications on a rolling basis \u00b7 Duration of Project: 3 months to 1 year \u00b7 Decision on Funding: 20 to 45 days post receipt of application ...",
+      "source": "serpapi",
+      "date_found": "2026-09-18T10:39:07.779352",
+      "buying_signals": [
+        "funding"
+      ],
+      "score": 12
+    },
+    "medicircle.in": {
+      "name": "HRSays Update - Funding Alerts - MediCircle",
+      "website": "https://medicircle.in/funding-alerts",
+      "domain": "medicircle.in",
+      "description": "RedBrick AI, a Healthtech startup, raises $4.6 million in funding from Sequoia India, Surge. Healthtech startup RedBrick AI raises $4.6 million in funding.",
+      "source": "serpapi",
+      "date_found": "2026-09-18T10:39:07.779390",
+      "buying_signals": [
+        "funding"
+      ],
+      "score": 12
+    },
+    "eac-consulting.de": {
+      "name": "The Future of Logistics: Startup landscape in India",
+      "website": "https://eac-consulting.de/wp-content/uploads/2024/05/Messe-Stuttgart_EAC_Report_on_The-Future-of-Logistics_Startup_landscape_in_India.pdf",
+      "domain": "eac-consulting.de",
+      "description": "With over 1,500 logistics startups operating in India as on 31st December 2023 and attracting USD 4 billion in funding over the past five years, startups are ...",
+      "source": "serpapi",
+      "date_found": "2026-09-18T10:39:08.692119",
+      "buying_signals": [
+        "funding"
+      ],
+      "score": 12
+    },
+    "razorpay.com": {
+      "name": "Payment Gateway Charges - Simple & Transparent Pricing",
+      "website": "https://razorpay.com/pricing/",
+      "domain": "razorpay.com",
+      "description": "Razorpay offers robust, easy-to-use APIs and simple economic pricing designed for startups, SMEs and large enterprises. Choose the trusted payment solutions ...",
+      "source": "serpapi",
+      "date_found": "2026-09-18T10:44:51.401271",
+      "buying_signals": [
+        "enterprise"
+      ],
+      "score": 12
+    },
+    "nasscom.in": {
+      "name": "India's Generative AI Startup Landscape 2024",
+      "website": "https://nasscom.in/knowledge-center/publications/indias-generative-ai-startup-landscape-2024",
+      "domain": "nasscom.in",
+      "description": "3.6X growth in India's GenAI startup base, from 66+ in H1 CY2023 to 240+ in H1 CY2024 \u00b7 Tepid funding increase of 1.25X for Indian GenAI startups limited majorly ...",
+      "source": "serpapi",
+      "date_found": "2026-09-18T10:44:53.777186",
+      "buying_signals": [
+        "funding"
+      ],
+      "score": 12
+    },
+    "fintech-group.com": {
+      "name": "Fintech Group - Leading Financial Technology Company in ...",
+      "website": "https://fintech-group.com/",
+      "domain": "fintech-group.com",
+      "description": "A leading provider of enterprise IT solutions in Africa , helping businesses transform with cutting-edge technology.",
+      "source": "serpapi",
+      "date_found": "2026-09-21T09:47:54.492266",
+      "buying_signals": [
+        "enterprise"
+      ],
+      "score": 12
+    },
+    "projectstartups.com": {
+      "name": "Fintech Startups in India",
+      "website": "https://projectstartups.com/pages/fintech-india/?srsltid=AU7gw4Xa6pXaIeztYGXUPY9x70FqfbMufCzgyJDiTMSkKYP-MfS5ydQD",
+      "domain": "projectstartups.com",
+      "description": "Fintech Startups in India ; Navi. Growth $100M ; Scapia. Series C \u00b7 $63M ; Antier Solutions. $3M ; Xflow. Series A $16.6M ...",
+      "source": "serpapi",
+      "date_found": "2026-09-21T09:47:58.330674",
+      "buying_signals": [
+        "funding"
+      ],
+      "score": 12
+    },
+    "bharatnxtwave.com": {
+      "name": "Health Care Innovation Grant for Startups",
+      "website": "https://bharatnxtwave.com/health-care-innovation-grant/",
+      "domain": "bharatnxtwave.com",
+      "description": "Access government-backed Health Care Innovation Grants with BharatNXT Wave. Get funding, mentorship & incubation support for healthcare startups ...",
+      "source": "serpapi",
+      "date_found": "2026-09-21T09:47:59.984765",
+      "buying_signals": [
+        "funding"
+      ],
+      "score": 12
+    },
+    "storehippo.com": {
+      "name": "StoreHippo: AI Powered Enterprise Ecommerce Platform",
+      "website": "https://www.storehippo.com/en/",
+      "domain": "storehippo.com",
+      "description": "StoreHippo is an AI-powered ecommerce ecosystem trusted by leading Indian and global brands. Designed for scale and speed, it enables enterprises, ...",
+      "source": "serpapi",
+      "date_found": "2026-09-21T09:50:32.269720",
+      "buying_signals": [
+        "enterprise"
+      ],
+      "score": 12
+    }
+  },
+  "last_updated": "2026-09-22T10:11:40.164118"
+}

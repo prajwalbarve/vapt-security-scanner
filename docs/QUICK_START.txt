@@ -1,0 +1,150 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                      VAPT PROSPECT SCRAPER - QUICK START                 ║
+║                          Get Running in 10 Minutes                        ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+STEP 1: GET API KEYS (5 minutes)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Option A: SerpAPI (Recommended - Google Search Results)
+  1. Go to: https://serpapi.com/
+  2. Click "Sign Up" (FREE 100 searches/month)
+  3. Copy your API key from dashboard
+  4. Save it: SERPAPI_KEY = "abc123def456..."
+
+Option B: NewsAPI (For Startup News - Also Free)
+  1. Go to: https://newsapi.org/
+  2. Register email
+  3. Copy API key
+  4. Save it: NEWS_API_KEY = "xyz789..."
+
+You need at least ONE of these to start.
+
+
+STEP 2: INSTALL & TEST (3 minutes)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Install dependencies:
+   $ pip install -r requirements.txt
+
+2. Set your API keys (macOS/Linux):
+   $ export SERPAPI_KEY="your_actual_key"
+   $ export NEWS_API_KEY="your_actual_key"
+
+   Windows (PowerShell):
+   $ $env:SERPAPI_KEY="your_actual_key"
+   $ $env:NEWS_API_KEY="your_actual_key"
+
+3. Run the script:
+   $ python3 vapt_prospect_scraper.py
+
+4. You should see:
+   ✓ "Found X companies"
+   ✓ "New qualified prospects: X"
+   ✓ CSV export with company details
+   ✓ Two JSON files created (tracker + leads)
+
+
+STEP 3: SET UP DAILY AUTOMATION (2 minutes)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+OPTION A: macOS/Linux (Cron)
+  1. Open terminal, run:
+     $ crontab -e
+
+  2. Add this line (daily at 9 AM):
+     0 9 * * * cd /path/to/script && export SERPAPI_KEY="key" && \
+     export NEWS_API_KEY="key" && python3 vapt_prospect_scraper.py >> \
+     vapt_scraper.log 2>&1
+
+     Replace /path/to/script with actual directory
+     Replace "key" with your actual API keys
+
+  3. Save & exit (Ctrl+X, then Y, then Enter)
+
+  4. Verify:
+     $ crontab -l
+
+
+OPTION B: Windows (Task Scheduler)
+  1. Search "Task Scheduler" in Windows
+  2. Click "Create Basic Task"
+  3. Name: "VAPT Daily Search"
+  4. Trigger: Daily, 9:00 AM
+  5. Action: Start Program
+     - Program: C:\Python39\python.exe (find your Python path)
+     - Arguments: vapt_prospect_scraper.py
+     - Start in: C:\path\to\script
+  6. Click OK
+
+
+OPTION C: No Local Setup? Use GitHub Actions (Easiest - Free Cloud)
+  1. Push script to GitHub repo
+  2. Create .github/workflows/vapt-daily.yml with provided code
+  3. Add API keys as GitHub Secrets
+  4. Done - runs automatically every day
+
+
+STEP 4: REVIEW DAILY OUTPUT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Files created:
+  • vapt_qualified_leads.json    ← All qualified companies (score 12+)
+  • vapt_leads_tracker.json      ← Complete history (never overwritten)
+  • vapt_scraper.log             ← Daily run logs (if using cron)
+
+You'll get email alerts or check manually each day for:
+  ✓ New companies found
+  ✓ Their websites
+  ✓ Lead scores (15+ are gold)
+  ✓ Why they're relevant (buying signals)
+  ✓ Company type (B2B SaaS? Technical focus?)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                                WHAT'S NEXT?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Once script is running, I'll build:
+  1. Interactive VAPT Lead Tracker (manage full funnel)
+  2. Decision-maker research + email verification
+  3. A/B email templates + follow-up sequences
+  4. Funnel analytics + conversion tracking
+
+Tell me when script is running and we'll proceed to the tracker!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                              TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Issue: "API key not set"
+Fix:   Make sure you ran: export SERPAPI_KEY="actual_key"
+       Check: echo $SERPAPI_KEY (should show your key)
+
+Issue: "No results found"
+Fix:   - Check API keys are correct
+       - Try just SerpAPI first
+       - Check network connection
+       - Visit https://serpapi.com/dashboard to verify key works
+
+Issue: Cron job not running
+Fix:   - Check logs: log stream --predicate 'process == "cron"'
+       - Make sure directory path is correct
+       - Test manually first
+
+Issue: Can't install requests
+Fix:   $ pip install requests --upgrade
+       $ pip install -r requirements.txt
+
+═══════════════════════════════════════════════════════════════════════════════
+                              FILES PROVIDED
+═══════════════════════════════════════════════════════════════════════════════
+
+1. vapt_prospect_scraper.py   ← Main script (read comments for details)
+2. requirements.txt            ← Dependencies (pip install -r)
+3. SETUP_GUIDE.md             ← Full documentation with customization
+4. QUICK_START.txt            ← This file
+
+For more details, read SETUP_GUIDE.md
+
+═══════════════════════════════════════════════════════════════════════════════

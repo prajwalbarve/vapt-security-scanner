@@ -1,0 +1,849 @@
+[
+  {
+    "domain": "startupindia.gov.in",
+    "scan_date": "2026-09-23T09:51:36.388818",
+    "findings": [
+      {
+        "type": "Missing Security Header: HSTS",
+        "severity": "Medium",
+        "description": "Force HTTPS usage",
+        "header": "strict-transport-security",
+        "action": "Add strict-transport-security header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Frame-Options",
+        "severity": "Medium",
+        "description": "Prevent clickjacking",
+        "header": "x-frame-options",
+        "action": "Add x-frame-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Content-Type-Options",
+        "severity": "Low",
+        "description": "Prevent MIME sniffing",
+        "header": "x-content-type-options",
+        "action": "Add x-content-type-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: CSP",
+        "severity": "High",
+        "description": "Prevent XSS attacks",
+        "header": "content-security-policy",
+        "action": "Add content-security-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Referrer-Policy",
+        "severity": "Low",
+        "description": "Control referrer info",
+        "header": "referrer-policy",
+        "action": "Add referrer-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Permissions-Policy",
+        "severity": "Low",
+        "description": "Control browser features",
+        "header": "permissions-policy",
+        "action": "Add permissions-policy header to responses"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 6
+  },
+  {
+    "domain": "startupgrind.com",
+    "scan_date": "2026-09-23T09:51:43.847158",
+    "findings": [
+      {
+        "type": "Missing Security Header: HSTS",
+        "severity": "Medium",
+        "description": "Force HTTPS usage",
+        "header": "strict-transport-security",
+        "action": "Add strict-transport-security header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Frame-Options",
+        "severity": "Medium",
+        "description": "Prevent clickjacking",
+        "header": "x-frame-options",
+        "action": "Add x-frame-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Content-Type-Options",
+        "severity": "Low",
+        "description": "Prevent MIME sniffing",
+        "header": "x-content-type-options",
+        "action": "Add x-content-type-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: CSP",
+        "severity": "High",
+        "description": "Prevent XSS attacks",
+        "header": "content-security-policy",
+        "action": "Add content-security-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Referrer-Policy",
+        "severity": "Low",
+        "description": "Control referrer info",
+        "header": "referrer-policy",
+        "action": "Add referrer-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Permissions-Policy",
+        "severity": "Low",
+        "description": "Control browser features",
+        "header": "permissions-policy",
+        "action": "Add permissions-policy header to responses"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 6
+  },
+  {
+    "domain": "failory.com",
+    "scan_date": "2026-09-23T09:51:45.552562",
+    "findings": [
+      {
+        "type": "Missing Security Header: X-Frame-Options",
+        "severity": "Medium",
+        "description": "Prevent clickjacking",
+        "header": "x-frame-options",
+        "action": "Add x-frame-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Content-Type-Options",
+        "severity": "Low",
+        "description": "Prevent MIME sniffing",
+        "header": "x-content-type-options",
+        "action": "Add x-content-type-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: CSP",
+        "severity": "High",
+        "description": "Prevent XSS attacks",
+        "header": "content-security-policy",
+        "action": "Add content-security-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Referrer-Policy",
+        "severity": "Low",
+        "description": "Control referrer info",
+        "header": "referrer-policy",
+        "action": "Add referrer-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Permissions-Policy",
+        "severity": "Low",
+        "description": "Control browser features",
+        "header": "permissions-policy",
+        "action": "Add permissions-policy header to responses"
+      },
+      {
+        "type": "Server Information Exposed",
+        "severity": "low",
+        "detail": "X-Powered-By header reveals tech stack",
+        "action": "Remove X-Powered-By header"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 6
+  },
+  {
+    "domain": "infomsp.com",
+    "scan_date": "2026-09-23T09:52:22.639057",
+    "findings": [],
+    "severity": "low",
+    "total_findings": 0
+  },
+  {
+    "domain": "fintech.maharashtra.gov.in",
+    "scan_date": "2026-09-23T09:52:24.346223",
+    "findings": [
+      {
+        "type": "Missing Security Header: HSTS",
+        "severity": "Medium",
+        "description": "Force HTTPS usage",
+        "header": "strict-transport-security",
+        "action": "Add strict-transport-security header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Frame-Options",
+        "severity": "Medium",
+        "description": "Prevent clickjacking",
+        "header": "x-frame-options",
+        "action": "Add x-frame-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Content-Type-Options",
+        "severity": "Low",
+        "description": "Prevent MIME sniffing",
+        "header": "x-content-type-options",
+        "action": "Add x-content-type-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: CSP",
+        "severity": "High",
+        "description": "Prevent XSS attacks",
+        "header": "content-security-policy",
+        "action": "Add content-security-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Referrer-Policy",
+        "severity": "Low",
+        "description": "Control referrer info",
+        "header": "referrer-policy",
+        "action": "Add referrer-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Permissions-Policy",
+        "severity": "Low",
+        "description": "Control browser features",
+        "header": "permissions-policy",
+        "action": "Add permissions-policy header to responses"
+      },
+      {
+        "type": "HTTP Not Redirected to HTTPS",
+        "severity": "high",
+        "description": "Site accessible via plain HTTP",
+        "action": "Configure HTTP \u2192 HTTPS redirect"
+      },
+      {
+        "type": "Server Information Exposed",
+        "severity": "low",
+        "detail": "X-Powered-By header reveals tech stack",
+        "action": "Remove X-Powered-By header"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 8
+  },
+  {
+    "domain": "naukri.com",
+    "scan_date": "2026-09-23T09:52:27.508995",
+    "findings": [
+      {
+        "type": "Missing Security Header: CSP",
+        "severity": "High",
+        "description": "Prevent XSS attacks",
+        "header": "content-security-policy",
+        "action": "Add content-security-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Referrer-Policy",
+        "severity": "Low",
+        "description": "Control referrer info",
+        "header": "referrer-policy",
+        "action": "Add referrer-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Permissions-Policy",
+        "severity": "Low",
+        "description": "Control browser features",
+        "header": "permissions-policy",
+        "action": "Add permissions-policy header to responses"
+      },
+      {
+        "type": "Debug Mode Enabled",
+        "severity": "high",
+        "description": "Error messages expose system info",
+        "action": "Disable debug mode in production"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 4
+  },
+  {
+    "domain": "knightfintech.com",
+    "scan_date": "2026-09-23T09:52:29.554444",
+    "findings": [
+      {
+        "type": "Missing Security Header: HSTS",
+        "severity": "Medium",
+        "description": "Force HTTPS usage",
+        "header": "strict-transport-security",
+        "action": "Add strict-transport-security header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Content-Type-Options",
+        "severity": "Low",
+        "description": "Prevent MIME sniffing",
+        "header": "x-content-type-options",
+        "action": "Add x-content-type-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: Referrer-Policy",
+        "severity": "Low",
+        "description": "Control referrer info",
+        "header": "referrer-policy",
+        "action": "Add referrer-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Permissions-Policy",
+        "severity": "Low",
+        "description": "Control browser features",
+        "header": "permissions-policy",
+        "action": "Add permissions-policy header to responses"
+      },
+      {
+        "type": "Server Information Exposed",
+        "severity": "low",
+        "detail": "X-Powered-By header reveals tech stack",
+        "action": "Remove X-Powered-By header"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 5
+  },
+  {
+    "domain": "leadsquared.com",
+    "scan_date": "2026-09-23T09:52:36.202902",
+    "findings": [
+      {
+        "type": "Missing Security Header: HSTS",
+        "severity": "Medium",
+        "description": "Force HTTPS usage",
+        "header": "strict-transport-security",
+        "action": "Add strict-transport-security header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Frame-Options",
+        "severity": "Medium",
+        "description": "Prevent clickjacking",
+        "header": "x-frame-options",
+        "action": "Add x-frame-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Content-Type-Options",
+        "severity": "Low",
+        "description": "Prevent MIME sniffing",
+        "header": "x-content-type-options",
+        "action": "Add x-content-type-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: CSP",
+        "severity": "High",
+        "description": "Prevent XSS attacks",
+        "header": "content-security-policy",
+        "action": "Add content-security-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Referrer-Policy",
+        "severity": "Low",
+        "description": "Control referrer info",
+        "header": "referrer-policy",
+        "action": "Add referrer-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Permissions-Policy",
+        "severity": "Low",
+        "description": "Control browser features",
+        "header": "permissions-policy",
+        "action": "Add permissions-policy header to responses"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 6
+  },
+  {
+    "domain": "ambitionbox.com",
+    "scan_date": "2026-09-23T09:52:45.308732",
+    "findings": [
+      {
+        "type": "Missing Security Header: HSTS",
+        "severity": "Medium",
+        "description": "Force HTTPS usage",
+        "header": "strict-transport-security",
+        "action": "Add strict-transport-security header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Content-Type-Options",
+        "severity": "Low",
+        "description": "Prevent MIME sniffing",
+        "header": "x-content-type-options",
+        "action": "Add x-content-type-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: CSP",
+        "severity": "High",
+        "description": "Prevent XSS attacks",
+        "header": "content-security-policy",
+        "action": "Add content-security-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Referrer-Policy",
+        "severity": "Low",
+        "description": "Control referrer info",
+        "header": "referrer-policy",
+        "action": "Add referrer-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Permissions-Policy",
+        "severity": "Low",
+        "description": "Control browser features",
+        "header": "permissions-policy",
+        "action": "Add permissions-policy header to responses"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 5
+  },
+  {
+    "domain": "theyellowstrawberry.com",
+    "scan_date": "2026-09-23T09:52:47.498176",
+    "findings": [
+      {
+        "type": "Missing Security Header: HSTS",
+        "severity": "Medium",
+        "description": "Force HTTPS usage",
+        "header": "strict-transport-security",
+        "action": "Add strict-transport-security header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Frame-Options",
+        "severity": "Medium",
+        "description": "Prevent clickjacking",
+        "header": "x-frame-options",
+        "action": "Add x-frame-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Content-Type-Options",
+        "severity": "Low",
+        "description": "Prevent MIME sniffing",
+        "header": "x-content-type-options",
+        "action": "Add x-content-type-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: Referrer-Policy",
+        "severity": "Low",
+        "description": "Control referrer info",
+        "header": "referrer-policy",
+        "action": "Add referrer-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Permissions-Policy",
+        "severity": "Low",
+        "description": "Control browser features",
+        "header": "permissions-policy",
+        "action": "Add permissions-policy header to responses"
+      },
+      {
+        "type": "Admin Panel Publicly Accessible",
+        "severity": "high",
+        "path": "/admin",
+        "description": "Admin login page is publicly accessible",
+        "action": "Protect /admin with IP whitelist or VPN"
+      },
+      {
+        "type": "Server Information Exposed",
+        "severity": "low",
+        "detail": "X-Powered-By header reveals tech stack",
+        "action": "Remove X-Powered-By header"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 7
+  },
+  {
+    "domain": "theadroit.in",
+    "scan_date": "2026-09-23T09:53:04.832200",
+    "findings": [
+      {
+        "type": "Missing Security Header: HSTS",
+        "severity": "Medium",
+        "description": "Force HTTPS usage",
+        "header": "strict-transport-security",
+        "action": "Add strict-transport-security header to responses"
+      },
+      {
+        "type": "Missing Security Header: CSP",
+        "severity": "High",
+        "description": "Prevent XSS attacks",
+        "header": "content-security-policy",
+        "action": "Add content-security-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Referrer-Policy",
+        "severity": "Low",
+        "description": "Control referrer info",
+        "header": "referrer-policy",
+        "action": "Add referrer-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Permissions-Policy",
+        "severity": "Low",
+        "description": "Control browser features",
+        "header": "permissions-policy",
+        "action": "Add permissions-policy header to responses"
+      },
+      {
+        "type": "Server Information Exposed",
+        "severity": "low",
+        "detail": "X-Powered-By header reveals tech stack",
+        "action": "Remove X-Powered-By header"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 5
+  },
+  {
+    "domain": "algoocean.com",
+    "scan_date": "2026-09-23T09:53:10.112229",
+    "findings": [
+      {
+        "type": "Missing Security Header: HSTS",
+        "severity": "Medium",
+        "description": "Force HTTPS usage",
+        "header": "strict-transport-security",
+        "action": "Add strict-transport-security header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Frame-Options",
+        "severity": "Medium",
+        "description": "Prevent clickjacking",
+        "header": "x-frame-options",
+        "action": "Add x-frame-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Content-Type-Options",
+        "severity": "Low",
+        "description": "Prevent MIME sniffing",
+        "header": "x-content-type-options",
+        "action": "Add x-content-type-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: CSP",
+        "severity": "High",
+        "description": "Prevent XSS attacks",
+        "header": "content-security-policy",
+        "action": "Add content-security-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Referrer-Policy",
+        "severity": "Low",
+        "description": "Control referrer info",
+        "header": "referrer-policy",
+        "action": "Add referrer-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Permissions-Policy",
+        "severity": "Low",
+        "description": "Control browser features",
+        "header": "permissions-policy",
+        "action": "Add permissions-policy header to responses"
+      },
+      {
+        "type": "Server Information Exposed",
+        "severity": "low",
+        "detail": "X-Powered-By header reveals tech stack",
+        "action": "Remove X-Powered-By header"
+      },
+      {
+        "type": "Debug Mode Enabled",
+        "severity": "high",
+        "description": "Error messages expose system info",
+        "action": "Disable debug mode in production"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 8
+  },
+  {
+    "domain": "dxminds.com",
+    "scan_date": "2026-09-23T09:53:13.648400",
+    "findings": [
+      {
+        "type": "Missing Security Header: HSTS",
+        "severity": "Medium",
+        "description": "Force HTTPS usage",
+        "header": "strict-transport-security",
+        "action": "Add strict-transport-security header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Frame-Options",
+        "severity": "Medium",
+        "description": "Prevent clickjacking",
+        "header": "x-frame-options",
+        "action": "Add x-frame-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Content-Type-Options",
+        "severity": "Low",
+        "description": "Prevent MIME sniffing",
+        "header": "x-content-type-options",
+        "action": "Add x-content-type-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: Referrer-Policy",
+        "severity": "Low",
+        "description": "Control referrer info",
+        "header": "referrer-policy",
+        "action": "Add referrer-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Permissions-Policy",
+        "severity": "Low",
+        "description": "Control browser features",
+        "header": "permissions-policy",
+        "action": "Add permissions-policy header to responses"
+      },
+      {
+        "type": "Admin Panel Publicly Accessible",
+        "severity": "high",
+        "path": "/admin",
+        "description": "Admin login page is publicly accessible",
+        "action": "Protect /admin with IP whitelist or VPN"
+      },
+      {
+        "type": "Debug Mode Enabled",
+        "severity": "high",
+        "description": "Error messages expose system info",
+        "action": "Disable debug mode in production"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 7
+  },
+  {
+    "domain": "stymeta.com",
+    "scan_date": "2026-09-23T09:53:24.687704",
+    "findings": [
+      {
+        "type": "Missing Security Header: HSTS",
+        "severity": "Medium",
+        "description": "Force HTTPS usage",
+        "header": "strict-transport-security",
+        "action": "Add strict-transport-security header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Frame-Options",
+        "severity": "Medium",
+        "description": "Prevent clickjacking",
+        "header": "x-frame-options",
+        "action": "Add x-frame-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Content-Type-Options",
+        "severity": "Low",
+        "description": "Prevent MIME sniffing",
+        "header": "x-content-type-options",
+        "action": "Add x-content-type-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: Referrer-Policy",
+        "severity": "Low",
+        "description": "Control referrer info",
+        "header": "referrer-policy",
+        "action": "Add referrer-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Permissions-Policy",
+        "severity": "Low",
+        "description": "Control browser features",
+        "header": "permissions-policy",
+        "action": "Add permissions-policy header to responses"
+      },
+      {
+        "type": "Admin Panel Publicly Accessible",
+        "severity": "high",
+        "path": "/admin",
+        "description": "Admin login page is publicly accessible",
+        "action": "Protect /admin with IP whitelist or VPN"
+      },
+      {
+        "type": "Server Information Exposed",
+        "severity": "low",
+        "detail": "X-Powered-By header reveals tech stack",
+        "action": "Remove X-Powered-By header"
+      },
+      {
+        "type": "Debug Mode Enabled",
+        "severity": "high",
+        "description": "Error messages expose system info",
+        "action": "Disable debug mode in production"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 8
+  },
+  {
+    "domain": "designrush.com",
+    "scan_date": "2026-09-23T09:53:25.525517",
+    "findings": [
+      {
+        "type": "Missing Security Header: HSTS",
+        "severity": "Medium",
+        "description": "Force HTTPS usage",
+        "header": "strict-transport-security",
+        "action": "Add strict-transport-security header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Content-Type-Options",
+        "severity": "Low",
+        "description": "Prevent MIME sniffing",
+        "header": "x-content-type-options",
+        "action": "Add x-content-type-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: CSP",
+        "severity": "High",
+        "description": "Prevent XSS attacks",
+        "header": "content-security-policy",
+        "action": "Add content-security-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Permissions-Policy",
+        "severity": "Low",
+        "description": "Control browser features",
+        "header": "permissions-policy",
+        "action": "Add permissions-policy header to responses"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 4
+  },
+  {
+    "domain": "msh.meity.gov.in",
+    "scan_date": "2026-09-23T09:53:33.502625",
+    "findings": [
+      {
+        "type": "Missing Security Header: Permissions-Policy",
+        "severity": "Low",
+        "description": "Control browser features",
+        "header": "permissions-policy",
+        "action": "Add permissions-policy header to responses"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 1
+  },
+  {
+    "domain": "mca.gov.in",
+    "scan_date": "2026-09-23T09:53:35.249124",
+    "findings": [
+      {
+        "type": "Missing Security Header: HSTS",
+        "severity": "Medium",
+        "description": "Force HTTPS usage",
+        "header": "strict-transport-security",
+        "action": "Add strict-transport-security header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Frame-Options",
+        "severity": "Medium",
+        "description": "Prevent clickjacking",
+        "header": "x-frame-options",
+        "action": "Add x-frame-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: X-Content-Type-Options",
+        "severity": "Low",
+        "description": "Prevent MIME sniffing",
+        "header": "x-content-type-options",
+        "action": "Add x-content-type-options header to responses"
+      },
+      {
+        "type": "Missing Security Header: Referrer-Policy",
+        "severity": "Low",
+        "description": "Control referrer info",
+        "header": "referrer-policy",
+        "action": "Add referrer-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Permissions-Policy",
+        "severity": "Low",
+        "description": "Control browser features",
+        "header": "permissions-policy",
+        "action": "Add permissions-policy header to responses"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 5
+  },
+  {
+    "domain": "zetaglobal.com",
+    "scan_date": "2026-09-23T09:53:38.793701",
+    "findings": [
+      {
+        "type": "Missing Security Header: X-Frame-Options",
+        "severity": "Medium",
+        "description": "Prevent clickjacking",
+        "header": "x-frame-options",
+        "action": "Add x-frame-options header to responses"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 1
+  },
+  {
+    "domain": "newyorker.com",
+    "scan_date": "2026-09-23T09:53:46.522887",
+    "findings": [
+      {
+        "type": "Missing Security Header: HSTS",
+        "severity": "Medium",
+        "description": "Force HTTPS usage",
+        "header": "strict-transport-security",
+        "action": "Add strict-transport-security header to responses"
+      },
+      {
+        "type": "Missing Security Header: Referrer-Policy",
+        "severity": "Low",
+        "description": "Control referrer info",
+        "header": "referrer-policy",
+        "action": "Add referrer-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Permissions-Policy",
+        "severity": "Low",
+        "description": "Control browser features",
+        "header": "permissions-policy",
+        "action": "Add permissions-policy header to responses"
+      },
+      {
+        "type": "Debug Mode Enabled",
+        "severity": "high",
+        "description": "Error messages expose system info",
+        "action": "Disable debug mode in production"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 4
+  },
+  {
+    "domain": "jll.com",
+    "scan_date": "2026-09-23T09:53:54.026567",
+    "findings": [
+      {
+        "type": "Missing Security Header: Referrer-Policy",
+        "severity": "Low",
+        "description": "Control referrer info",
+        "header": "referrer-policy",
+        "action": "Add referrer-policy header to responses"
+      },
+      {
+        "type": "Missing Security Header: Permissions-Policy",
+        "severity": "Low",
+        "description": "Control browser features",
+        "header": "permissions-policy",
+        "action": "Add permissions-policy header to responses"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 2
+  },
+  {
+    "domain": "qz.com",
+    "scan_date": "2026-09-23T09:53:54.698929",
+    "findings": [
+      {
+        "type": "Missing Security Header: HSTS",
+        "severity": "Medium",
+        "description": "Force HTTPS usage",
+        "header": "strict-transport-security",
+        "action": "Add strict-transport-security header to responses"
+      }
+    ],
+    "severity": "high",
+    "total_findings": 1
+  }
+]
