@@ -1,0 +1,113 @@
+{
+  "scanner_version": "2.0-evidence-first",
+  "generated_at": "2026-09-23T10:04:11.041751+00:00",
+  "results": [
+    {
+      "domain": "https://startupindia.gov.in",
+      "scanner_version": "2.0-evidence-first",
+      "scanned_at": "2026-09-23T10:02:35.256720+00:00",
+      "summary": {
+        "verified": 0,
+        "potential": 0,
+        "observations": 0,
+        "severity": "info"
+      },
+      "severity": "info",
+      "total_findings": 0,
+      "verified_vulnerabilities": [],
+      "real_vulnerabilities": [],
+      "potential_findings": [],
+      "observations": []
+    },
+    {
+      "domain": "https://startupgrind.com",
+      "scanner_version": "2.0-evidence-first",
+      "scanned_at": "2026-09-23T10:02:36.367346+00:00",
+      "summary": {
+        "verified": 0,
+        "potential": 0,
+        "observations": 0,
+        "severity": "info"
+      },
+      "severity": "info",
+      "total_findings": 0,
+      "verified_vulnerabilities": [],
+      "real_vulnerabilities": [],
+      "potential_findings": [],
+      "observations": []
+    },
+    {
+      "domain": "https://failory.com",
+      "scanner_version": "2.0-evidence-first",
+      "scanned_at": "2026-09-23T10:02:36.787214+00:00",
+      "summary": {
+        "verified": 0,
+        "potential": 1,
+        "observations": 0,
+        "severity": "info"
+      },
+      "severity": "info",
+      "total_findings": 1,
+      "verified_vulnerabilities": [],
+      "real_vulnerabilities": [],
+      "potential_findings": [
+        {
+          "type": "Reflected Input Detected",
+          "severity": "low",
+          "status": "potential",
+          "confidence": 85,
+          "description": "A benign unique marker supplied in a query parameter was reflected in the response. Reflection alone does not prove executable XSS.",
+          "evidence": "GET /?vapt_test=<unique-marker> returned HTTP 308 and reflected the unique marker in the response body.",
+          "action": "Review the reflection context and apply context-appropriate output encoding. Perform manual XSS validation only within the authorized test scope.",
+          "endpoint": "https://failory.com/"
+        }
+      ],
+      "observations": []
+    },
+    {
+      "domain": "https://infomsp.com",
+      "scanner_version": "2.0-evidence-first",
+      "scanned_at": "2026-09-23T10:04:10.003190+00:00",
+      "summary": {
+        "verified": 0,
+        "potential": 0,
+        "observations": 0,
+        "severity": "info"
+      },
+      "severity": "info",
+      "total_findings": 0,
+      "verified_vulnerabilities": [],
+      "real_vulnerabilities": [],
+      "potential_findings": [],
+      "observations": []
+    },
+    {
+      "domain": "https://fintech.maharashtra.gov.in",
+      "scanner_version": "2.0-evidence-first",
+      "scanned_at": "2026-09-23T10:04:11.041668+00:00",
+      "summary": {
+        "verified": 0,
+        "potential": 0,
+        "observations": 1,
+        "severity": "info"
+      },
+      "severity": "info",
+      "total_findings": 1,
+      "verified_vulnerabilities": [],
+      "real_vulnerabilities": [],
+      "potential_findings": [],
+      "observations": [
+        {
+          "type": "HTTP Not Automatically Redirected to HTTPS",
+          "severity": "low",
+          "status": "observation",
+          "confidence": 95,
+          "description": "The HTTP endpoint did not return an immediate redirect to HTTPS.",
+          "evidence": "GET http://fintech.maharashtra.gov.in/ returned HTTP 200; Location=<none>",
+          "action": "Redirect HTTP requests to HTTPS and enable HSTS after confirming HTTPS is correctly deployed.",
+          "endpoint": "http://fintech.maharashtra.gov.in/"
+        }
+      ]
+    }
+  ]
+}

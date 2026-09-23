@@ -1,0 +1,75 @@
+[
+  {
+    "domain": "infomsp.com",
+    "scan_date": "2026-09-23T15:46:04.319067",
+    "findings": [],
+    "severity": "low",
+    "total_findings": 0
+  },
+  {
+    "domain": "knightfintech.com",
+    "scan_date": "2026-09-23T15:46:05.761802",
+    "findings": [
+      {
+        "type": "Exposed Configuration File: /.env",
+        "severity": "critical",
+        "evidence": "File exists and contains sensitive keywords",
+        "impact": "Attacker can read database passwords, API keys",
+        "fix": "Remove /.env from web root or use .htaccess to block"
+      }
+    ],
+    "severity": "critical",
+    "total_findings": 1
+  },
+  {
+    "domain": "leadsquared.com",
+    "scan_date": "2026-09-23T15:46:08.784972",
+    "findings": [],
+    "severity": "low",
+    "total_findings": 0
+  },
+  {
+    "domain": "theyellowstrawberry.com",
+    "scan_date": "2026-09-23T15:46:17.695388",
+    "findings": [],
+    "severity": "low",
+    "total_findings": 0
+  },
+  {
+    "domain": "theadroit.in",
+    "scan_date": "2026-09-23T15:46:47.556143",
+    "findings": [],
+    "severity": "low",
+    "total_findings": 0
+  },
+  {
+    "domain": "algoocean.com",
+    "scan_date": "2026-09-23T15:46:56.192640",
+    "findings": [],
+    "severity": "low",
+    "total_findings": 0
+  },
+  {
+    "domain": "dxminds.com",
+    "scan_date": "2026-09-23T15:47:22.067128",
+    "findings": [],
+    "severity": "low",
+    "total_findings": 0
+  },
+  {
+    "domain": "stymeta.com",
+    "scan_date": "2026-09-23T15:47:52.432313",
+    "findings": [
+      {
+        "type": "SQL Injection",
+        "severity": "critical",
+        "endpoint": "/?id=1' AND '1'='1",
+        "evidence": "SQL error message visible in response",
+        "impact": "Attacker can read/modify database",
+        "fix": "Use parameterized queries, input validation"
+      }
+    ],
+    "severity": "critical",
+    "total_findings": 1
+  }
+]
