@@ -2,7 +2,7 @@
 
 **Python-based web and API security assessment prototype** exploring automated checks, evidence collection, and the distinction between scanner observations and manually confirmed vulnerabilities.
 
-> **Project status:** Work in progress. This public repository contains early Python scanning scripts and separate prospect-discovery utilities. It does **not** currently contain the newer OWASP ZAP-powered scanner or a complete SQLi/XSS/IDOR testing suite. See [Current capabilities](#current-capabilities) and [Limitations](#limitations).
+> **Project status:** Work in progress. This is the original, standalone Python scanning project developed without a third-party scanning engine. It uses custom HTTP checks and heuristic detection logic. It is not a complete SQLi/XSS/IDOR testing suite. See [Current capabilities](#current-capabilities) and [Limitations](#limitations).
 
 ## Why I built this
 
@@ -121,7 +121,7 @@ Examples of checks requiring extra care:
 
 ## Planned improvements
 
-- Integrate the newer **OWASP ZAP-based scanning workflow** after code review, testing, and removal of sensitive artifacts.
+- Improve the existing Python request/response checks, test discovery, and result accuracy without introducing a separate scanning engine.
 - Add a target-input interface and explicit scope/authorization safeguards.
 - Add authorized local test cases for SQLi, XSS, and IDOR/BOLA.
 - Separate **candidate findings** from manually **confirmed vulnerabilities** in reports and console output.
@@ -136,4 +136,4 @@ Some historical JSON files in `data/` contain references to third-party websites
 
 ## Repository status
 
-This README documents the code currently visible in the public repository, not private or local development versions. Project work is ongoing; technical claims and demonstrations will be updated as tested implementations are published.
+This README documents the original Python-only project and its current public implementation. Project work is ongoing; technical claims and demonstrations will be updated as features are implemented and tested.
